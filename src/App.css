@@ -1,4 +1,63 @@
+/* Projects page*/
+.project {
+  display: float;
+  background-color: #f8f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+.project p,h3 {
+  text-shadow: 1px 1px 2px #090202;
+  color: #080707; 
+}
+.project:hover {
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+}
+.project h3 {
+  margin-top: 0;
+}
+.project p {
+  font-size: 14px;
+}
+.project a {
+  display: block;
+  color: #007bff;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+/* About Page */
 
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center; 
+}
+.about-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.about-page p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+} 
+.links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  margin: 0 10px; 
+  font-size: 1.1rem;
+  color: #0077cc;
+  text-decoration: none;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* contacts page */
 .contact-page {
   max-width: 600px;
   margin: 0 auto;

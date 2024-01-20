@@ -3,15 +3,13 @@ import React from "react";
 const HomePage: React.FC = () => {
   return (
     <div className="home-page">
-      <h1>Welcome to our website!</h1>
+      <h1>Welcome to this website!</h1>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor
-        lectus nibh. Cras ultricies ligula sed magna dictum porta. Curabitur non
-        nulla sit amet nisl tempus convallis quis ac lectus.
-      </p>
+      <p>Hey this is shashwath 👋</p>
 
-      <button>Learn More</button>
+      <button>
+        <a href="/about">Learn More</a>
+      </button>
     </div>
   );
 };
