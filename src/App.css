@@ -1,3 +1,12 @@
+/* logo */
+.logo {
+  width: 10px;
+  display: block;
+  background-color: #0077cc;
+  border-radius: 90%;
+  margin: 0 10px;
+} 
+
 /* Projects page*/
 .project {
   display: float;

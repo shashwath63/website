@@ -1,5 +1,6 @@
 import React from "react";
 import App from "../App";
+import logo from "../assets/logo.svg";
 interface HeaderProps {
   title: string;
 }
@@ -7,9 +8,9 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
     <header>
-      <div className="logo">
-        <img src="/logo.png" alt="Logo" />
-      </div>
+      {/* <div className="logo">
+        <img src={logo} alt="DEV" />
+      </div> */}
       <h2>{title}</h2>
       <nav>
         <ul>

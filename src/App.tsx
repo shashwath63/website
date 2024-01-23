@@ -20,7 +20,7 @@ const App: React.FC = () => {
           </React.Fragment>
         </Routes>
 
-        <Footer copyrightDate={2022} />
+        <Footer copyrightDate={2024} />
       </Router>
     </>
   );
