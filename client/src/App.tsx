@@ -1,5 +1,4 @@
-
-import { Header, Footer, About, Contact, HomePage, Projects } from "./components";
+import { Header, Footer, About, Contact, HomePage, Projects, Terms } from "./components";
 
 import { BrowserRouter as Router, Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
@@ -17,6 +16,7 @@ const App: React.FC = () => {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/terms" element={<Terms />} />
           </React.Fragment>
         </Routes>
 

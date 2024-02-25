@@ -46,17 +46,17 @@ const Contact: React.FC = () => {
       <form onSubmit={handleSubmit}>
         <label>
           Name:
-          <input type="text" name="name" />
+          <input type="text" name="name" value={name}onChange={(e)=>setName(e.target.value)}/>
         </label>
 
         <label>
           Email:
-          <input type="email" name="email" />
+          <input type="email" name="email"value={email} onChange={(e)=>setEmail(e.target.value)} />
         </label>
 
         <label>
           Message:
-          <textarea name="message"></textarea>
+          <textarea name="message" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
         </label>
 
         <button type="submit">Send</button>
